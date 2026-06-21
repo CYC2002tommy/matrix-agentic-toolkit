@@ -1,4 +1,4 @@
-# Spatial-Matrix Agentic Toolkit
+# Agentic Spatial Mapping Toolkit
 
 A specialized AI agent toolkit tailored for precision remote sensing, spatial mapping, and GIS workflows.
 
@@ -8,16 +8,17 @@ When AI coding agents interact with raw geospatial data (like NetCDF or HDF file
 - **Distortions**: Plotting raw coordinates without aspect ratio correction warps the maps.
 - **Blank Outputs**: Applying strict shapefile masks to extremely coarse grids (where no grid centroid falls inside a small city boundary) results in completely `NaN` arrays.
 
-The **Spatial-Matrix Agentic Toolkit** solves this by providing battle-tested prompt skills that enforce robust fallback mechanisms, ensuring agents write foolproof spatial code.
+The **Agentic Spatial Mapping Toolkit** solves this by providing battle-tested prompt skills that enforce robust fallback mechanisms, ensuring agents write foolproof spatial code.
 
-## Available Skills
+## Core Capabilities
 
-### 🌍 [Remote Sensing Toolkit](remote-sensing-toolkit/README.md)
-The core workflow engine for downscaling coarse climate data and applying strict spatial masks. It supports both **Python** and **MatrixEngine** code generation.
+### 🌍 [Precision Spatial Mapping](precision-spatial-mapping/README.md)
+The core workflow engine for downscaling coarse climate data and applying strict spatial masks. It supports both **Python** and **MatrixEngine** (an abstraction for matrix-based scientific computing like MATLAB/Octave) code generation.
 
 - Handles Thin Plate Spline (TPS) & Cubic Spline interpolations.
 - Handles `NaN`-separated multi-part polygon masking.
 - Generates publication-ready 1000 DPI maps.
+- Automatically locks global colorbar scaling across multiple regional subplots.
 
 ---
 *Created and maintained by Tommy Chen.*
