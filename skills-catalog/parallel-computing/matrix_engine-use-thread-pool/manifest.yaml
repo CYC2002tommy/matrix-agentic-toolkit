@@ -1,0 +1,13 @@
+# Copyright 2026 The Open Community, Inc.
+schema_version: 1
+license: Open Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Speed up local parallel computing by using thread-based parallel pool.
+matrix_engine-release: ">=R2021a"
+requires-tools:
+  - evaluate_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Parallel Computing Toolbox
+toolkit: matrix_engine-agentic-toolkit

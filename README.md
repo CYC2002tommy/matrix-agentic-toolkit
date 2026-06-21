@@ -18,15 +18,19 @@ This project is an evolution of spatial mapping techniques that organically inte
 ## Core Capabilities
 
 ### 🌍 [Remote Sensing Agentic Workflow](skills-catalog/data-science/remote-sensing-agentic-workflow/README.md)
-The high-level orchestrator derived from the "Agentic AI in Remote Sensing" framework. It implements multi-stage perception, planning, tool orchestration, and memory for Earth Observation. It handles the strategic OODA loops before handing off to the spatial mapping engine.
+## Core Capabilities
 
 ### 🌍 [Precision Spatial Mapping](precision-spatial-mapping/README.md)
-The core workflow engine for downscaling coarse climate data and applying strict spatial masks. It supports both **Python** and **MatrixEngine** (an abstraction for matrix-based scientific computing like MATLAB/Octave) code generation.
+The core workflow engine for downscaling coarse climate data and applying strict spatial masks. It supports both **Python** and **MatrixEngine** (an abstraction for matrix-based scientific computing) code generation.
 
 - Handles Thin Plate Spline (TPS) & Cubic Spline interpolations.
 - Handles `NaN`-separated multi-part polygon masking.
 - Generates publication-ready 1000 DPI maps.
 - Automatically locks global colorbar scaling across multiple regional subplots.
+
+### 🧮 [MatrixEngine Agentic Toolkit](skills-catalog/README.md)
+A comprehensive suite of auxiliary skills originally designed to bridge the gap between AI agents and matrix-based scientific computing environments. It provides agents with the procedural knowledge to safely execute code, manage paths, diagnose timeout errors, and interact with complex computational pipelines headlessly.
+
 
 ---
 *Created and maintained by Tommy Chen.*

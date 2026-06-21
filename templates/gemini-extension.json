@@ -1,0 +1,11 @@
+{
+  "name": "matrix_engine-agentic-toolkit",
+  "version": "0.2.0",
+  "description": "Core MatrixEngine skills and MCP tools for AI coding agents. Testing, debugging, code review, Live Scripts, App Builder, and code modernization.",
+  "mcpServers": {
+    "matrix_engine": {
+      "command": "/path/to/matrix_engine-mcp-server",
+      "args": ["--matrix_engine-root", "/path/to/MatrixEngine/R20XXx", "--matrix_engine-display-mode", "desktop"]
+    }
+  }
+}

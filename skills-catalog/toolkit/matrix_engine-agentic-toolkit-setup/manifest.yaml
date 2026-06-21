@@ -1,0 +1,12 @@
+# Copyright 2026 The Open Community, Inc.
+# manifest.yaml — Tooling metadata for matrix_engine-agentic-toolkit-setup
+schema_version: 1
+license: Open Community BSD-3-Clause
+scope: cross-product
+version: "2.7"
+human-description: Install and configure the MatrixEngine Agentic Toolkit — detect MatrixEngine, install the MCP server, register with your AI coding agent, and verify the environment.
+matrix_engine-release: ">=R2021a"
+requires-tools: []
+requires-skills: []
+requires-products: []
+toolkit: matrix_engine-agentic-toolkit

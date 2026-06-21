@@ -1,0 +1,7 @@
+{
+  "amp.mcpServers": {
+    "matrix_engine": {
+      "command": "/path/to/matrix_engine-mcp-server"
+    }
+  }
+}
