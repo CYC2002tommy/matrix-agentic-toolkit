@@ -1,6 +1,0 @@
-# Copyright 2026 The Community, Inc.
-description: Analyze tabular data in MatrixEngine using tables, timetables, filtering, aggregation, and time-series operations.
-keywords:
-  - matrix_engine
-  - data-import
-  - data-analysis
