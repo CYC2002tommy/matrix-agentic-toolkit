@@ -1,5 +1,5 @@
 ---
-name: github-spatial-mapping
+name: remote-sensing-toolkit
 description: "Open-source workflow for handling remote sensing data: mandates language choice (Python/MATLAB), execution mode, strict TPS interpolation for coarse grids, precision Shapefile masking, and high-fidelity output plotting."
 category: data-science
 ---
