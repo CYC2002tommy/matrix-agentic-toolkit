@@ -1,12 +1,14 @@
 ---
 name: precision-spatial-mapping
-description: "Open-source workflow for handling remote sensing data: mandates language choice (Python/MATLAB), execution mode, strict TPS interpolation for coarse grids, precision Shapefile masking, and high-fidelity output plotting."
+description: "Strict workflow for handling remote sensing data: mandates language choice (Python/MATLAB), execution mode, strict TPS interpolation for coarse grids, precision Shapefile masking, and high-fidelity output plotting. Integrates remote-sensing OODA planning with matrix-agentic-toolkit robustness."
 category: data-science
 ---
 
 # Precision Spatial Mapping Workflow
 
-This skill acts as a strict downstream plotting and calculation engine for processing raw geospatial datasets. It encapsulates hard-learned lessons regarding coordinate distortion, extreme grid interpolation (Thin Plate Spline), exact multi-polygon masking, and high-fidelity academic plotting.
+This skill acts as a strict downstream plotting and calculation engine for processing raw geospatial datasets. It encapsulates hard-learned lessons regarding coordinate distortion, extreme grid interpolation (Thin Plate Spline), exact multi-polygon masking, and high-fidelity academic plotting. 
+
+It is designed to integrate the strategic OODA loops from `remote-sensing-agentic-workflow` with the robust scripting patterns from `matrix-agentic-toolkit`.
 
 ## 🎯 Trigger Conditions
 - User asks to plot maps, trends, or extract data from raw geospatial datasets (NetCDF, HDF, TIFF).
