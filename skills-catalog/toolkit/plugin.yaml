@@ -1,8 +1,0 @@
-# Copyright 2026 The Community, Inc.
-description: >
-  Detects MatrixEngine, installs the MCP server, registers with your AI coding agent, and verifies the environment.
-keywords:
-  - matrix_engine
-  - setup
-  - mcp
-  - configuration
