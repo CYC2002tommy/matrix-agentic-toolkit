@@ -17,6 +17,9 @@ This project is an evolution of spatial mapping techniques that organically inte
 
 ## Core Capabilities
 
+### 🌍 [Remote Sensing Agentic Workflow](skills-catalog/data-science/remote-sensing-agentic-workflow/README.md)
+The high-level orchestrator derived from the "Agentic AI in Remote Sensing" framework. It implements multi-stage perception, planning, tool orchestration, and memory for Earth Observation. It handles the strategic OODA loops before handing off to the spatial mapping engine.
+
 ### 🌍 [Precision Spatial Mapping](precision-spatial-mapping/README.md)
 The core workflow engine for downscaling coarse climate data and applying strict spatial masks. It supports both **Python** and **MatrixEngine** (an abstraction for matrix-based scientific computing like MATLAB/Octave) code generation.
 
