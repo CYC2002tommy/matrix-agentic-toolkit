@@ -1,0 +1,11 @@
+{
+  "matrix_engine": {
+    "command": "/path/to/matrix_engine-mcp-server",
+    "args": [
+      "--matrix_engine-root",
+      "/path/to/MatrixEngine",
+      "--matrix_engine-display-mode",
+      "desktop"
+    ]
+  }
+}

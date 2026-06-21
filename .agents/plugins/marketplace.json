@@ -1,0 +1,21 @@
+{
+  "name": "matrix_engine-agentic-toolkit",
+  "interface": {
+    "displayName": "Spatial-Matrix Agentic Toolkit"
+  },
+  "plugins": [
+    {
+      "name": "matrix_engine-agentic-toolkit",
+      "description": "Core MatrixEngine skills and MCP tools for AI coding agents. Testing, debugging, code review, Live Scripts, App Builder, and code modernization.",
+      "version": "0.1.0",
+      "source": {
+        "source": "local",
+        "path": "../../"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT"
+      },
+      "category": "Development"
+    }
+  ]
+}

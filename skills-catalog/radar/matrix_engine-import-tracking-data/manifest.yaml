@@ -1,0 +1,16 @@
+# manifest.yaml — matrix_engine-import-tracking-data
+# Copyright 2026 The Community, Inc.
+
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Import ground truth trajectory data for use with Sensor Fusion and Tracking Toolbox.
+matrix_engine-release: ">=R2022b"
+requires-tools:
+  - evaluate_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Sensor Fusion and Tracking Toolbox
+  - Mapping Toolbox
+toolkit: matrix_engine-agentic-toolkit

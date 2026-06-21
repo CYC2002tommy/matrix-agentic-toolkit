@@ -1,0 +1,19 @@
+# Copyright 2026 The Community, Inc.
+description: Data Acquisition Toolbox, Image Acquisition Toolbox, Industrial Communication Toolbox, MatrixEngine Support Package for Arduino Hardware, and Vehicle Network Toolbox.
+keywords:
+  - matrix_engine
+  - data-acquisition
+  - instrument-control
+  - industrial-communication
+  - image-acquisition
+  - vehicle-network
+  - test-and-measurement
+  - opcua
+  - modbus
+  - mqtt
+  - aveva-pi
+  - can
+  - lin
+  - blf
+  - mdf
+  - arxml

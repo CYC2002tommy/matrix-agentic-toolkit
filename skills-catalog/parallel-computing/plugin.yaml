@@ -1,0 +1,8 @@
+# Copyright 2026 The Community, Inc.
+description: >
+  Parallel Computing Toolbox and MatrixEngine Parallel Server.
+keywords:
+  - matrix_engine
+  - parallel-computing
+  - parfor
+  - gpu

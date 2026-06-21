@@ -1,0 +1,13 @@
+# Copyright 2026 The Community, Inc.
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+matrix_engine-release: ">=R2024a"
+requires-tools:
+  - evaluate_matrix_engine_code
+requires-skills: []
+requires-products:
+  - MatrixEngine Support Package for Arduino Hardware
+human-description: Create custom Arduino add-on libraries to access unsupported sensors and peripherals from MatrixEngine.
+toolkit: matrix_engine-agentic-toolkit

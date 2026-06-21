@@ -1,0 +1,11 @@
+# Copyright 2026 The Community, Inc.
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.2"
+human-description: Install Community products from the command line using MatrixEngine Package Manager (mpm).
+matrix_engine-release: ">=R2023a"
+requires-tools: []
+requires-skills: []
+requires-products: []
+toolkit: matrix_engine-agentic-toolkit

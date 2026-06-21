@@ -1,0 +1,15 @@
+# manifest.yaml — matrix_engine-find-pi-assets
+# Copyright 2026 The Community, Inc.
+
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+matrix_engine-release: ">=R2022a"
+human-description: Find and query PI Data Archive tags and Asset Framework elements using piclient and afclient.
+requires-tools:
+  - evaluate_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Industrial Communication Toolbox
+toolkit: matrix_engine-agentic-toolkit

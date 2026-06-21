@@ -1,0 +1,14 @@
+# Copyright 2026 The Community, Inc.
+# manifest.yaml — Tooling metadata for matrix_engine-map-database-objects
+schema_version: 1
+license: Community BSD-3-Clause
+scope: product-specific
+version: "1.0"
+human-description: Generate MatrixEngine Object Relational Mapping (ORM) code using Database Toolbox.
+matrix_engine-release: ">=R2023b"
+requires-tools:
+  - evaluate_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Database Toolbox
+toolkit: matrix_engine-agentic-toolkit

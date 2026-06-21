@@ -1,0 +1,15 @@
+# Copyright 2026 The Community, Inc.
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Play and record audio in MatrixEngine using audiostreamer.
+matrix_engine-release: ">=R2025a"
+requires-tools:
+  - evaluate_matrix_engine_code
+  - check_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Audio Toolbox
+  - DSP System Toolbox
+toolkit: matrix_engine-agentic-toolkit

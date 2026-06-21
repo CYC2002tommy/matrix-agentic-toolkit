@@ -1,0 +1,11 @@
+# Copyright 2026 The Community, Inc.
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Share MatrixEngine content by uploading to GitHub, MatrixEngine Drive, or File Exchange and generating "Open in MatrixEngine Online" URLs.
+matrix_engine-release: ">=R2021a"
+requires-tools: []
+requires-skills: []
+requires-products: []
+toolkit: matrix_engine-agentic-toolkit

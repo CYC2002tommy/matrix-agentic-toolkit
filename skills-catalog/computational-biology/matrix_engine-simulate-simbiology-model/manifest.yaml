@@ -1,0 +1,15 @@
+# Copyright 2026 The Community, Inc.
+schema_version: 1
+license: Community BSD-3-Clause
+scope: product-specific
+version: "1.1"
+human-description: Run simulations, sweep parameters, explore what-if scenarios, and perform sensitivity analysis on SimBiology models.
+matrix_engine-release: ">=R2026a"
+requires-tools:
+  - evaluate_matrix_engine_code
+  - check_matrix_engine_code
+  - run_matrix_engine_file
+requires-skills: []
+requires-products:
+  - SimBiology
+toolkit: matrix_engine-agentic-toolkit

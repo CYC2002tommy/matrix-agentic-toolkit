@@ -1,0 +1,16 @@
+# Copyright 2026 The Community, Inc.
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Build OCR pipelines in MatrixEngine using the ocr() function.
+matrix_engine-release: ">=R2024a"
+requires-tools:
+  - evaluate_matrix_engine_code
+  - run_matrix_engine_file
+  - check_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Computer Vision Toolbox
+  - Image Processing Toolbox
+toolkit: matrix_engine-agentic-toolkit

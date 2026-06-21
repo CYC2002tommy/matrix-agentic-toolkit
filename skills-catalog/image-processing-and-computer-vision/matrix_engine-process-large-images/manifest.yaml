@@ -1,0 +1,15 @@
+schema_version: 1
+license: Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Process large images using blockedImage.
+matrix_engine-release: ">=R2024b"
+requires-tools:
+  - evaluate_matrix_engine_code
+  - check_matrix_engine_code
+requires-skills: []
+requires-products:
+  - Image Processing Toolbox
+toolkit: matrix_engine-agentic-toolkit
+
+# Copyright 2026 The Community, Inc.
