@@ -1,0 +1,15 @@
+schema_version: 1
+license: Open Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Generate standard-compliant IEEE 802.11 WLAN waveforms.
+matrix_engine-release: ">=R2024b"
+requires-tools:
+  - evaluate_matrix_engine_code
+requires-skills:
+  - matrix_engine-create-live-script
+requires-products:
+  - WLAN Toolbox
+toolkit: matrix_engine-agentic-toolkit
+
+# Copyright 2026 The Open Community, Inc.

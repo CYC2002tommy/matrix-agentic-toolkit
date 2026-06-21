@@ -1,0 +1,17 @@
+# Copyright 2026 The Open Community, Inc.
+schema_version: 1
+license: Open Community BSD-3-Clause
+scope: cross-product
+version: "1.0"
+human-description: Diagnose and enhance image quality from cameras connected via Image Acquisition Toolbox.
+matrix_engine-release: ">=R2022a"
+requires-tools:
+  - detect_matrix_engine_toolboxes
+  - evaluate_matrix_engine_code
+  - check_matrix_engine_code
+  - run_matrix_engine_file
+requires-skills: []
+requires-products:
+  - Image Acquisition Toolbox
+  - Image Processing Toolbox
+toolkit: matrix_engine-agentic-toolkit
