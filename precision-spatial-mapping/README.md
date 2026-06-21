@@ -1,4 +1,4 @@
-# Remote Sensing Toolkit
+# Precision Spatial Mapping Skill
 
 This skill equips your AI coding agent with strict procedures for spatial mapping. It prevents agents from generating distorted, blank, or blocky maps when working with coarse geospatial datasets and complex administrative boundaries.
 
@@ -13,17 +13,17 @@ Ensure you have the following libraries installed (`pip install ...` or `conda i
 - `scipy` (Specifically `scipy.interpolate.griddata` for cubic interpolation)
 - `rasterio` (For high-performance, pixel-perfect geometry masking)
 
-### MatrixEngine Environment
-Ensure your installation includes the following toolboxes:
-- **Curve Fitting Toolbox**: Required for the `tpaps` (Thin Plate Spline) interpolation algorithm.
-- **Mapping Toolbox**: Required for `shaperead` and `inpolygon` geometry masking.
+### Matrix/Scientific Computing Environment
+If generating scripts for matrix-based scientific computing (like MATLAB), ensure your installation includes:
+- **Curve Fitting Utilities**: Required for the `tpaps` (Thin Plate Spline) interpolation algorithm.
+- **Mapping/Geospatial Utilities**: Required for geometry reading (`shaperead`) and masking (`inpolygon`).
 
 ## 🚀 Usage
 
 Install this skill by loading `SKILL.md` into your agent's context or skills library.
 
 When the agent is asked to plot spatial data or remote sensing maps, it will automatically:
-1. **Prompt for Execution Mode**: Ask whether to write Python or MatrixEngine code, and whether to run it manually or in the background (to avoid timeout limits on massive interpolations).
+1. **Prompt for Execution Mode**: Ask whether to write Python or Matrix-based code, and whether to run it manually or in the background (to avoid timeout limits on massive interpolations).
 2. **Downscale Coarse Grids**: Use Thin Plate Spline (TPS) or Cubic interpolation to upscale raw data (like $0.25^\circ$ ERA5) to high-resolution grids before masking.
 3. **Apply Precision Masking**: Parse Shapefiles accurately, explicitly handling `NaN`-separated multi-part polygons (islands, lakes).
 4. **Centroid Fallback**: If the target region is smaller than the raw grid resolution (resulting in a blank mask), it will automatically fallback to capturing the nearest grid point to the region's centroid.
